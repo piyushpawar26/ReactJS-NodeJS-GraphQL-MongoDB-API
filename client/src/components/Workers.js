@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 
-class AddRoom extends Component {
+class Workers extends Component {
 
     render() {
         return(
             <div className="container">
-                <div className="main-section z-depth-1">
+                <div className="main-section">
                     <h5>Workers</h5>
+                    <hr />
                 </div>
             </div>
         );
@@ -14,4 +15,4 @@ class AddRoom extends Component {
 
 }
 
-export default AddRoom;
+export default Workers;

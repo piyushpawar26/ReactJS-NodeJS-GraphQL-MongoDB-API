@@ -5,8 +5,9 @@ class AssignedTasks extends Component {
     render() {
         return(
             <div className="container">
-                <div className="main-section z-depth-1">
+                <div className="main-section">
                     <h5>Assigned Tasks</h5>
+                    <hr />
                 </div>
             </div>
         );
