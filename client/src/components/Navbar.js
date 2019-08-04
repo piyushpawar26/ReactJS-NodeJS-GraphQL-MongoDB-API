@@ -8,8 +8,9 @@ const Navbar = () => {
                 <div className="container">
                     <Link to="/" className="brand-logo black-text">API</Link>
                     <ul className="right">
-                        <li><NavLink to="/" className="nav-link">Add Worker</NavLink></li>
-                        <li><NavLink to="/" className="nav-link">Add Task</NavLink></li>
+                        <li><NavLink to="/add-worker" className="nav-link">Add Worker</NavLink></li>
+                        <li><NavLink to="/add-task" className="nav-link">Add Task</NavLink></li>
+                        <li><NavLink to="/add-task" className="nav-link">Add Room</NavLink></li>
                     </ul>
                 </div>
             </nav>

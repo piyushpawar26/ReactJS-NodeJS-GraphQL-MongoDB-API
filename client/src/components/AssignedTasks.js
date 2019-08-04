@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-class AddTask extends Component {
+class AssignedTasks extends Component {
 
     render() {
         return(
             <div className="container">
                 <div className="main-section z-depth-1">
-                    <h5>Add Task</h5>
+                    <h5>Assigned Tasks</h5>
                 </div>
             </div>
         );
@@ -14,4 +14,4 @@ class AddTask extends Component {
 
 }
 
-export default AddTask;
+export default AssignedTasks;
