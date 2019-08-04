@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className="navbar-fixed">
             <nav className="nav-wrapper white">
                 <div className="container">
-                    <Link to="/" className="brand-logo black-text">UDAAN</Link>
+                    <Link to="/" className="brand-logo black-text">API</Link>
                 </div>
             </nav>
         </div>
