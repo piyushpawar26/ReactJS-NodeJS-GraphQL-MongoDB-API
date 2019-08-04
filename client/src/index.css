@@ -1,19 +1,19 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans';
+    font-family: sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-	background: #eee;
+    background: #eee;
 }
 
 p, a, li {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .brand-logo {
-	font-family: sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
 }
 
@@ -23,101 +23,10 @@ p, a, li {
 }
 
 .main-container {
-	width: 98%;
-	margin: auto;
+    width: 98%;
+    margin: auto;
 }
 
-.carousel {
-	margin-top: 1%;
-	height: 220px;
-}
-
-.carousel .carousel-item img {
-	height: 220px;
-}
-
-.carousel-item .carousel1 {
-	background-color: cadetblue;
-}
-
-.carousel-item .carousel2 {
-	background-color: crimson;
-}
-
-.carousel-item .carousel3 {
-	background-color: violet;
-}
-
-.books {
-	background-color: white;
-	margin-top: 1%;
-}
-
-.horizontal-list {
-	width: 100%;
-	overflow-x: scroll;
-	white-space: nowrap;
-}
-
-.list-item {
-	display: inline-block;
-	width: 180px;
-	height: 270px;
-	margin: 7px;
-	word-break:break-all;
-	text-align: center;
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
-.section-title {
-	font-size: 1.7em;
-	font-weight: 600;
-	padding-top: 1.5%;
-	padding-left: 1%;
-	padding-bottom: 1%;
-}
-
-.list-item-title {
-	font-size: 1em;
-	font-weight: 600;
-	padding-top: 3%;
-}
-
-.list-item-image {
-	height: 75%;
-	width: 90%;
-}
-
-.horizontal-list :first-child {
-	margin-left: 1%;
-}
-
-.horizontal-list :last-child {
-	margin-right: 1%;
-}
-
-.list-item :hover {
-	cursor: pointer;
-}
-
-.list-item-price {
-	padding-top: 0.1%;
-	font-weight: 500;
-}
-
-.form {
-	width: 40%;
-	margin-top: 7%;
-	padding: 2.5%;
-}
-
-.form-title {
-	font-weight: bold;
-	padding-bottom: 3%;
-}
-
-.auth-link {
-	font-size: 0.8em;
-	padding-top: 2%;
+.nav-link {
+    color: black;
 }
