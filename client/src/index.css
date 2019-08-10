@@ -12,8 +12,9 @@ p, a, li {
     padding: 0;
 }
 
-.navbar-fixed {
-    opacity: 0.8;
+.nav-wrapper {
+    opacity: 0.95;
+    box-shadow: 1px 1px 5px #ddd;
 }
 
 .brand-logo {
@@ -38,8 +39,8 @@ p, a, li {
 .main-section {
     background: white;
     padding: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .main-section > h5 {

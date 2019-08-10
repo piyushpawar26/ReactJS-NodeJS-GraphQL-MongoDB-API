@@ -1,17 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import { Modal } from 'react-materialize';
 
-class AddWorker extends Component {
+const trigger = <li><NavLink to="/" className="nav-link">Add Worker</NavLink></li>;
 
-    render() {
-        return(
-            <div className="container">
-                <div className="main-section">
-                    <h5>Add Worker</h5>
-                </div>
-            </div>
-        );
-    }
-
+const AddWorker = () => {
+    return (
+        <Modal header="Add Worker" trigger={trigger}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </Modal>
+    );
 }
 
 export default AddWorker;

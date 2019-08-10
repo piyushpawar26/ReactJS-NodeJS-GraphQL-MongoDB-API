@@ -1,16 +1,19 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import AddWorker from './AddWorker';
+import AddTask from './AddTask';
+import AddAsset from './AddAsset';
 
-const Navbar = () => {
+const Navbar = (props) => {
     return (
         <div className="navbar-fixed">
-            <nav className="nav-wrapper white z-depth-0">
+            <nav className="nav-wrapper white z-depth-1">
                 <div className="container">
                     <Link to="/" className="brand-logo black-text">API</Link>
                     <ul className="right">
-                        <li><NavLink to="/" className="nav-link">Add Worker</NavLink></li>
-                        <li><NavLink to="/" className="nav-link">Add Task</NavLink></li>
-                        <li><NavLink to="/" className="nav-link">Add Asset</NavLink></li>
+                        <AddWorker />
+                        <AddTask />
+                        <AddAsset />
                     </ul>
                 </div>
             </nav>

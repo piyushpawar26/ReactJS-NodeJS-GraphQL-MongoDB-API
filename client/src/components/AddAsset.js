@@ -1,17 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import { Modal } from 'react-materialize';
 
-class AddAsset extends Component {
+const trigger = <li><NavLink to="/" className="nav-link">Add Asset</NavLink></li>;
 
-    render() {
-        return(
-            <div className="container">
-                <div className="main-section">
-                    <h5>Add Asset</h5>
-                </div>
-            </div>
-        );
-    }
-
+const AddAsset = () => {
+    return (
+        <Modal header="Add Asset" trigger={ trigger }>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </Modal>
+    );
 }
 
 export default AddAsset;
