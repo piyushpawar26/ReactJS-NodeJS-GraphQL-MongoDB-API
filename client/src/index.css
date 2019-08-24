@@ -51,3 +51,8 @@ hr {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.modal .modal-footer .btn {
+    margin-left: 10px;
+    box-shadow: 0 0;
+}
