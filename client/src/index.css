@@ -17,7 +17,7 @@ p, a, li {
     box-shadow: 1px 1px 5px #ddd;
 }
 
-.brand-logo {
+.brand-logo, .sidenav-logo {
     font-family: sans-serif;
     font-weight: bold;
 }
@@ -32,7 +32,7 @@ p, a, li {
     margin: auto;
 }
 
-.nav-link {
+.nav-link, i {
     color: black;
 }
 
@@ -55,4 +55,35 @@ hr {
 .modal .modal-footer .btn {
     margin-left: 10px;
     box-shadow: 0 0;
+}
+
+.sidenav {
+    z-index: 2;
+    width: 250px;
+}
+
+.sidenav-overlay {
+    z-index: 1;
+}
+
+.navbar-fixed {
+    z-index: inherit;
+}
+
+.sidenav-logo {
+    line-height: 56px;
+    padding-left: 30px;
+    margin: 0;
+}
+
+.sidenav > ul, .sidenav > hr {
+    margin: 0;
+}
+
+@media only screen and (min-width: 601px) {
+
+    .sidenav-logo {
+        line-height: 64px;
+    }
+
 }
